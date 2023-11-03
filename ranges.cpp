@@ -36,7 +36,7 @@ int main(int, char *[]) {
 
 	// unsigned int
 	std::cout << std::endl
-  std::cout << std::setw(text_width) << "unsigned int";
+        std::cout << std::setw(text_width) << "unsigned int";
 	std::cout << std::setw(text_width) << "size is " << sizeof(unsigned int) << " byte(s)";
 	std::cout << std::setw(text_width) << "min value = ";
 	std::cout << std::setw(digit_width) << std::numeric_limits<unsigned int>::min();
